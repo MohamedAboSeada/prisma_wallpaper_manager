@@ -31,6 +31,7 @@ Instead of worrying about where wallpapers are stored, scattered folders, or fil
 ## 📦 Platform Support
 
 - ✅ Windows (Primary Target)
+- Linux (Secondary Target)
 
 ---
 
