@@ -1,11 +1,10 @@
-import 'package:flutter/material.dart';
+import 'package:fluent_ui/fluent_ui.dart';
 
 class PreviewScreen extends StatelessWidget {
   const PreviewScreen({super.key});
-  static const routeName = '/preview';
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body: Center(child: Text('Preview Screen')));
+    return ScaffoldPage(content: Center(child: Text("Preview Screen")));
   }
 }

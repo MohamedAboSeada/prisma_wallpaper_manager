@@ -1,11 +1,10 @@
-import 'package:flutter/material.dart';
+import 'package:fluent_ui/fluent_ui.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
-  static const routeName = '/settings';
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body: Center(child: Text('Settings Screen')));
+    return ScaffoldPage(content: Center(child: Text("Settings Screen")));
   }
 }
